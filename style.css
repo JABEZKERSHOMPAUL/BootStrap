@@ -1,0 +1,67 @@
+.topic {
+    position: relative;
+
+}
+
+.t-pic {
+    position: absolute;
+    width: 65px;
+    left: 550px;
+    top: 80px;
+}
+
+.par-1 {
+    position: relative;
+    padding: 20px;
+}
+
+.milk {
+    position: absolute;
+    width: 50px;
+    margin-left: 35%;
+    margin-top: 35px;
+}
+.bak{
+    position: relative;
+}
+.im-1{
+    position: absolute;
+    left:40%;
+    width: 50px;
+    top:700px ;
+}
+.caption-1{
+    position: absolute;
+    width: 50px;
+    left:39%;
+    top: 790px;
+    font-size: x-large;
+}
+.im-2{
+    position: absolute;
+    left: 60%;
+    width: 50px;
+    top:700px ;
+
+}
+.caption-2{
+    position: absolute;
+    width: 50px;
+    left: 59%;
+    top: 790px;
+    font-size: x-large;
+}
+.im-3{
+    position: absolute;
+    left:80%;
+    width: 50px;
+    top:700px ;
+
+}
+.caption-3{
+    position: absolute;
+    width: 50px;
+    left: 79%;
+    top: 790px;
+    font-size: x-large;
+}
