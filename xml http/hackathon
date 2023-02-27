@@ -1,1 +1,27 @@
+const requ=new XMLHttpRequest();
+requ.open('GET','https://api.nationalize.io/?name=jabez');
+requ.send();
+requ.onload = () =>{
+    if((requ.status=200)){
+        let res=JSON.parse(requ.response);
+        // res.map((country)=>{
+          
+        //     console.log(country[1].probability)
 
+        // });
+        console.log(res)
+        console.log(res.country[0].probability)
+        console.log(res.country[1].probability)
+        console.log(res.country[2].probability)
+        console.log(res.country[3].probability)
+        console.log(res.country[4].probability)
+        
+
+        console.log(res.country[0].country_id)
+        console.log(res.country[1].country_id)
+        console.log(res.name)
+    }
+    else{
+        console.log("ERR")
+    }
+}    
